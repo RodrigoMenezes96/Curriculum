@@ -9,3 +9,6 @@
 a:link{color: black;}
 a:hover{color: blue;}
 a:visited{color: purple;}
+#idObjetivo{display: none;}
+#idFormacao{display: none;}
+#idExperiencias{display: none;}
