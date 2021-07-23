@@ -27,10 +27,10 @@
         </div>
     </header>
 
-    <button type="button" id="idBottonOne">Show Objetivos</button>
+    <button type="button" id="idBottonOneJq">Show Objetivos</button>
 
     <div class="border_ridge" id="idObjetivo">
-        <div class="background_color_boxes" ;>
+        <div class="background_color_boxes">
             <dl class="margin">
                 <br>
                 <dt><strong>Objetivos:</strong></dt>
@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <button type="button" id="idBottonTwo">Show Formação</button>
+    <button type="button" id="idBottonTwoJq">Show Formação</button>
 
     <div class="border_ridge" id="idFormacao">
         <div class="background_color_boxes">
@@ -89,7 +89,7 @@
         </div>
     </div>
 
-    <button type="button" id="idBottonThree">Show Experiências</button>
+    <button type="button" id="idBottonThreeJq">Show Experiências</button>
 
     <div class="border_ridge" id="idExperiencias">
         <div class="background_color_boxes">
@@ -284,22 +284,9 @@
 
 
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script>
-    /* verificar se o elemento esta visivel SE VISIVEL ocultar 
-        o bloco e troca o nome do botão para mostrar bloco,
-        SE NÃO mostrar botão e mudar nome botão para ocultar bloco (){Implementando}*/
-    $(document).ready(function () {
-        $("#idButtonOne").on('click', function () {
-            if ($("#idObjetivo").is(":visible")) {
-                alert("Ta visivel");
-            } else { alert("Não ta visivel") }
-
-        });
-    });
-
-</script>
-
 </html>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src='./assets/js/myscriptjq.js'></script>
+
